@@ -1,5 +1,5 @@
 <h1>ExpNo 2 : Implement Breadth First Search Traversal of a Graph</h1> 
-<h3>Name: Shaik hoaib Nawaz</h3>
+<h3>Name: Shaik Shoaib Nawaz</h3>
 <h3>Register Number: 212222240094</h3>
 <H3>Aim:</H3>
 <p>To Implement Breadth First Search Traversal of a Graph using Python 3.</p>
