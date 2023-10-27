@@ -71,20 +71,17 @@ class Game:
             self.current_state[0][0] == self.current_state[1][1] and
             self.current_state[0][0] == self.current_state[2][2]):
             return self.current_state[0][0]
-
     # Second diagonal win
         if (self.current_state[0][2] != '.' and
             self.current_state[0][2] == self.current_state[1][1] and
             self.current_state[0][2] == self.current_state[2][0]):
             return self.current_state[0][2]
-
     # Is the whole board full?
         for i in range(0, 3):
             for j in range(0, 3):
             # There's an empty field, we continue the game
                 if (self.current_state[i][j] == '.'):
                     return None
-
     # It's a tie!
         return '.'
     def max_alpha_beta(self, alpha, beta):
@@ -201,7 +198,6 @@ class Game:
 def main():
     g = Game()
     g.play_alpha_beta()
-
 if __name__ == "__main__":
     main()
 </pre>
