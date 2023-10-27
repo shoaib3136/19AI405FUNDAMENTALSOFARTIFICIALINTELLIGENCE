@@ -264,7 +264,6 @@ class Game:
             if self.player_turn == 'X':
 
                 while True:
-
                     start = time.time()
                     (m, qx, qy) = self.min()
                     end = time.time()
@@ -282,7 +281,6 @@ class Game:
                         break
                     else:
                         print('The move is not valid! Try again.')
-
             # If it's AI's turn
             else:
                 (m, px, py) = self.max()
@@ -291,7 +289,6 @@ class Game:
 def main():
     g = Game()
     g.play()
-
 if __name__ == "__main__":
     main()
 </pre>
