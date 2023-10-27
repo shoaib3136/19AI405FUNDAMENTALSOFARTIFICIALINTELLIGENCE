@@ -1,6 +1,6 @@
 <h1>ExpNo 1 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name: Saravanan N</h3>
-<h3>Register Number/Staff Id: TSML006</h3>
+<h3>Name: Shaik Shoaib Nawaz</h3>
+<h3>Register Number: 212222240094</h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -53,6 +53,36 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>Find its Successors Or neighbors and Check whether the node is visited or not</li>
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
+
+<h3>Program:</h3>
+<p>
+<h4> '''Depth First Search uses STACK AND RECURSION'''</h4>
+<h4>#import defaultdict</h4>
+<h4>from collections import defaultdict</h4>
+<h4>def dfs(graph,start,visited,path):</h4>
+<h4>    path.append(start)</h4>
+<h4>    visited[start]=True</h4>
+<h4>   for neighbour in graph[start]:</h4>
+        if visited[neighbour]==False:
+            dfs(graph,neighbour,visited,path)
+            visited[neighbour]=True
+    return path
+graph=defaultdict(list)
+n,e=map(int,input().split())
+for i in range(e):
+    u,v=map(str,input().split())
+    graph[u].append(v)
+    graph[v].append(u)
+#print(graph)
+start='A'
+visited=defaultdict(bool)
+path=[]
+traversedpath=dfs(graph,start,visited,path)
+print(traversedpath)
+</h1>
+</p>
+
+
 
 <hr>
 <h3>Sample Input</h3>
