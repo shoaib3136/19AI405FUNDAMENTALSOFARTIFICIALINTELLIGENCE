@@ -76,6 +76,7 @@ def SimpleHillClimbing():
 #solution=generate_random_solution(answer)
 #print(evaluate(solution,answer))
 SimpleHillClimbing()
+                 
 </pre>
 
 
@@ -101,6 +102,8 @@ Score: 1  Solution :  Artificial Intelligencf<br>
 Score: 1  Solution :  Artificial Intelligencf<br>
 Score: 0  Solution :  Artificial Intelligence<br>
 
-<hr>
+
+
 <h2>Result:</h2>
-Thus, the implementation of Simple Hill Climbing Algorithm and Generating a String by Mutating a Single Character at each iteration is successfully executed.
+Thus, the implementation of Simple Hill Climbing Algorithm and Generating a
+String by Mutating a Single Character at each iteration is successfully executed.
