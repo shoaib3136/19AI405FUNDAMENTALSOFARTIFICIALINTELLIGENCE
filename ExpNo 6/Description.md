@@ -23,8 +23,8 @@ Alpha–Beta (𝛼−𝛽) algorithm is actually an improved minimax using a heu
 
 When added to a simple minimax algorithm, it gives the same output but cuts off certain branches that can’t possibly affect the final decision — dramatically improving the performance
 
-<h2>Program:</h2>
-<pre class="poem">
+## Program:
+```
 import time
 class Game:
     def __init__(self):
@@ -196,16 +196,15 @@ def main():
     g.play_alpha_beta()
 if __name__ == "__main__":
     main()
-</pre>
+```
 
 <hr>
 <h2>Sample Input and Output:</h2>
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8d5e329a-9aff-41a6-bcf0-46efa10e1b92)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/438b242d-54ba-443e-b040-a936e6ae3b55)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/99a33390-fa11-4ade-a19f-e93bcd7aaec9)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/440797bd-53cb-49c1-b18d-89776864c3e7)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/81575a16-26b2-46f1-a8ac-27c9ed0a0fe5)
+![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/2cf4d5da-c47e-4ed3-9c8b-ccf585ecd99d)
+
+![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/cd95dc3d-2873-43b7-be8e-e566c0f9da66)
+
 
 <hr>
 <h2>Result:</h2>
