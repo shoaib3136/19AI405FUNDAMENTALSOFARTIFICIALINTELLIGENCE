@@ -72,8 +72,8 @@ Begin<br>
    return false<br>
 End<br>
 
-<h2>Program:</h2>
-<pre class="poem">
+## Program:
+```
 from itertools import permutations
 def solve_cryptarithmetic():
     for perm in permutations(range(10), 8):
@@ -100,14 +100,11 @@ if solution:
     print(f'MONEY = {MONEY}')
 else:
     print("No solution found.")
-</pre>
+```
 
-<hr>
 <h2>Sample Input and Output:</h2>
-SEND = 9567<br>
-MORE = 1085<br>
-<hr>
-MONEY = 10652<br>
-<hr>
+
+![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/c06eb041-f27c-4882-893a-d3400aa21b44)
+
 <h2>Result:</h2>
 <p> Thus a Cryptarithmetic Problem was solved using Python successfully</p>
