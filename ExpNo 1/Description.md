@@ -105,39 +105,23 @@ print(traversedpath)
 
 <hr>
 <h3>Sample Input</h3>
-<hr>
-8 9 <BR>
-A B <BR>
-A C <BR>
-B E <BR>
-C D <BR>
-B D <BR>
-C G <BR>
-D F <BR>
-G F <BR>
-F H <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
-['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
 
-<hr>
+![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/91febb38-d0fc-4c65-8b26-9d355d77a33d)
+
+<h3>Sample Output</h3>
+
+![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/b2bbf5dc-1536-4af8-a4c6-9f89d148b065)
+
 
 <hr>
 <h3>Sample Input</h3>
-<hr>
-5 5 <BR>
-0 1 <BR>
-0 2 <BR>
-0 3 <BR>
-2 3 <BR>
-2 4 <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
-['0', '1', '2', '3', '4']
 
-<hr>
+![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/921b88a9-0c74-446f-96b2-4a5730caa6f5)
+
+<h3>Sample Output</h3>
+
+![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/e18b1405-8536-48c1-a000-214832d93b37)
+
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
