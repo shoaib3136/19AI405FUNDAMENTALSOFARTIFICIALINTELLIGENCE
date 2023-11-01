@@ -38,15 +38,15 @@ Feedback is provided in terms of heuristic function
 <h3>Step-4:</h3>
 <p> Lopp Step -2 and Step-3  until we achieve the score to be Zero to achieve Global Minima.</p>
 
-<h2>Program:</h2>
-<pre class="poem">
- import random
+## Program:
+```
+import random
 import string
 def generate_random_solution(answer):
     l=len(answer)
     return [random.choice(string.printable) for _ in range(l)]
 def evaluate(solution,answer):
-    print(solution)
+    #print(solution)
     target=list(answer)
     diff=0
     for i in range(len(target)):
@@ -59,15 +59,15 @@ def mutate_solution(solution):
     solution[ind]=random.choice(string.printable)
     return solution
 def SimpleHillClimbing():
-    answer="Artificial Intelligence"
+    answer="Shoaib"
     best=generate_random_solution(answer)
     best_score=evaluate(best,answer)
     while True:
-        print("Score:",best_score," Solution : ","".join(best))  
+        print("Score:",best_score," Solution : ","".join(best))
         if best_score==0:
             break
         new_solution=mutate_solution(list(best))
-        score=evaluate(new_solution,answer)   
+        score=evaluate(new_solution,answer)
         if score<best_score:
             best=new_solution
             best_score=score
@@ -76,31 +76,16 @@ def SimpleHillClimbing():
 #solution=generate_random_solution(answer)
 #print(evaluate(solution,answer))
 SimpleHillClimbing()
-                 
-</pre>
-
+```
 
 <hr>
 <h2>Sample Input and Output</h2>
-<h2>Sample String:</h2> Artificial Intelligence
-<h2>Output:</h2>
-Score: 643  Solution :  8RzF:oG ]%;CPORRMe!zGvk<br>
-Score: 609  Solution :  8RzF:oG ]%;CPqRRMe!zGvk<br>
-Score: 604  Solution :  8RzF:oG ]%;CPqRRMe!zGqk<br>
-Score: 594  Solution :  8RzF:oG ]%;CPqRRWe!zGqk<br>
-Score: 551  Solution :  8RzF:oGK]%;CPqRRWe!zGqk<br>
-Score: 551  Solution :  8RzF:oGK]%;CPqRRWe!zGqk<br>
-Score: 551  Solution :  8RzF:oGK]%;CPqRRWe!zGqk<br>
-Score: 551  Solution :  8RzF:oGK]%;CPqRRWe!zGqk<br>
-Score: 551  Solution :  8RzF:oGK]%;CPqRRWe!zGqk<br>
-....................................................<br>
-..................................................<br>
-................................................<br>
-Score: 1  Solution :  Artificial Intelligencf<br>
-Score: 1  Solution :  Artificial Intelligencf<br>
-Score: 1  Solution :  Artificial Intelligencf<br>
-Score: 1  Solution :  Artificial Intelligencf<br>
-Score: 0  Solution :  Artificial Intelligence<br>
+<h2>Sample Input String:</h2>
+<h3>Shoaib</h3>
+<h2>Sample Output:</h2>
+
+![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/f1a37fab-3462-44a9-a656-d1ebc98a783c)
+
 
 
 
