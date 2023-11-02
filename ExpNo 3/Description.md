@@ -163,12 +163,12 @@ aStarAlgo('A', 'G')
 
 <h2>Sample Input</h2>
 
-![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/92ee401e-7214-41d0-8eca-60f13f69e14e)
+![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/1c5e57a3-ae9d-4241-a551-a9c2fa7c550a)
 
 
 <h2>Sample Output</h2>
 
-![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/729d7e7a-a36e-4731-a737-09a77102fa48)
+![image](https://github.com/shoaib3136/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/117919362/9d3f7a2c-8996-426a-91bd-2ea7d66d17ba)
 
 
 
